@@ -1,0 +1,76 @@
+BT18GCS069 - Pranay Mokida
+Account 1: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+Test name: Placing an order for 1000
+Test Description: User calls the acceptQuantity function and enters the beach_id 
+		and quantity.
+Desired outcome: On clicking the quantity function we able to see the quantity
+		 and then we will click quantiy function to verfiy the quantiy
+		 on verifying the requestPayment function is used in order to pay.
+		 if we see the pay successful you need to click on the pay function.
+Actual outcome:
+		acceptQuantity
+		cvalue: 1000
+		vidd: 199
+		
+		quantity
+		uint256: 1000
+
+		requestPayment
+		_msg: 5000
+
+		pay
+		string: 5000
+		
+		ether: 99.999999999994334696 ether
+Result: Pass
+
+Account 2: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+Test name: Placing an order for 200
+Test Description:User calls the acceptQuantity function and enters the beach_id 
+		and quantity.
+Desired outcome:On clicking the quantity function we able to see the quantity
+		 and then we will click quantiy function to verfiy the quantiy
+		 on verifying the requestPayment function is used in order to pay.
+		 if we see the pay successful you need to click on the pay function.
+Actual outcome:
+		acceptQuantity
+		cvalue: 200
+		vidd: 199
+		
+		quantity
+		uint256: 200
+
+		requestPayment
+		_msg: 1230
+
+		pay
+		string: 1230
+		
+		ether: 99.999999999999566293 ether
+Result: Pass
+
+Account 3: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+Test name: Creating new order of 100
+Test Description: User calls the acceptQuantity function and enters the beach_id 
+		and quantity.
+Desired outcome:On clicking the quantity function we able to see the quantity
+		 and then we will click quantiy function to verfiy the quantiy
+		 on verifying the requestPayment function is used in order to pay.
+		 if we see the pay successful you need to click on the pay function.
+Actual outcome:
+		acceptQuantity
+		cvalue: 100
+		vidd: 199
+		
+		quantity
+		uint256: 100
+
+		requestPayment
+		_msg: 2000
+
+		pay
+		string: 2000
+		
+		ether: 99.9999999999962367343 ether
+Result: Pass
+
